@@ -1,0 +1,19 @@
+{
+  "name": "mini-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:reactivity": "node scripts/dev reactivity -f global",
+    "dev:runtime-dom": "node scripts/dev runtime-dom -f global",
+    "dev:runtime-core": "node scripts/dev runtime-core -f global"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.43",
+    "minimist": "^1.2.6",
+    "typescript": "^4.7.3"
+  }
+}
